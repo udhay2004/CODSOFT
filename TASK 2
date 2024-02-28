@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZERO-MERO GYM</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2e2626;
+        }
+
+        header {
+            background-image: url('data:image/jpeg;base64,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');
+            font-size: 25px;
+            text-shadow: #080707;
+            color: whitesmoke;
+            padding: 20px;
+            text-align: center;
+
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgb(182, 171, 171);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, p {
+            color: #3a3333;
+        }
+
+        button {
+            background-color: #973b74;
+            color: white;
+            font-weight: 30px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to ZERO-MERO Gym Page</h1>
+        <h3>Where fitness is a lifestyle</h3>
+    </header>
+
+    <section>
+        <h2>About Us</h2>
+        <p>ZERO-MERO gym belives in giving health lifestyle to everyone by providing a healthy diet chart and proper formal training for weight balance.We have certified trainers who have proper knowledge and experience to guide you to your dream physique</p>
+        <button>Learn More</button>
+    </section>
+
+    <section>
+        <h2>Features</h2>
+        <ul>
+            <li> World class gym equipment</li>
+            <li>Professional trainers and guides</li>
+            <li>Spa and saouna room service</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Our trainers</h2>
+        <ul>
+            <li>Tejas mona: Founder with 10 Years experince</li>
+            <li>Humpy Karla:Head with 13 Years experience</li>
+            <li>Sarkar Tilak:Assistant Director</li>
+        </ul>
+
+
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>Contact us at <a href="thezeromero@gmailcom">EMAIL</a></p>
+        <p>Call at-989XXXXXXX</p>
+    </section>
+
+
+
+    </section>
+
+    <footer>
+        <p> All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
